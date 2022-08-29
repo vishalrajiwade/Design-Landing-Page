@@ -105,3 +105,52 @@ nav img{
 [alt="intro-img"]{
     height: 40rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .nav-items {
+        display: none;
+    }
+
+    [alt="intro-img"]{
+        height: 20rem;
+    }
+
+    .vector-img{
+        top: 7rem;
+        right: 5vw;
+    }
+
+
+    .intro-section  {
+        flex-direction: column-reverse;
+    }
+
+    .left-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 9rem;
+    }
+
+    .left-section h4{
+        color: #758283;
+        font-size: 1rem;
+        width: 80%;
+        line-height: 1.8;
+    }
+
+    .vector-dot{
+        right: 10vw;
+        top: 8rem;
+    }
+
+    body{
+
+        background-position: top;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position-y: bottom 7rem;
+        
+    }
+}
